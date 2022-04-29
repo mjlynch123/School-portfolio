@@ -1,0 +1,199 @@
+body{
+    background-color: #444444;
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav{
+    float: right;
+    margin-right: 175px;
+    margin-top: 70px;
+    font-size: 18px;
+    height: auto;
+    width: 400px;
+    text-align: center;
+}
+
+.nav h5{
+    font-size: 25px;
+    margin-top: 35px;
+}
+
+.nav p {
+    font-size: 15px;
+}
+
+.nav ul{
+    word-spacing: 10px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.nav li{
+    list-style: none;
+    display: inline;
+}
+
+.nav a:hover{
+    color: grey;
+}
+
+.nav a.current{
+    color: #FFD369;
+    font-size: 25px;
+}
+
+.nav a.mystory{
+    text-decoration: none;
+    color: #FFD369;
+    border-bottom: 2px #FFD369 solid;
+}
+
+.Welcome{
+    position: absolute;
+    top: 0;
+    background-color: #444444;
+    height: 500px;
+    width: 100%;
+    margin-top: 0;
+    color: lightgray;
+}
+
+.heading h1,
+.heading p{
+    display: inline;
+    vertical-align: top;
+}
+
+.heading h1{
+    float: left;
+    font-size: 65px;
+    margin-top: 135px;
+    margin-left: 275px;
+    border-bottom: 5px solid #FFD369;
+}
+
+.heading p {
+    font-size: 25px;
+    width: 300px;
+}
+
+
+
+.fa-linkedin{
+    float: left;
+    margin-top: 240px;
+    margin-left: -300px;
+    text-decoration: none;
+    color: white;
+}
+
+.fa-instagram{
+    float: left;
+    margin-top: 240px;
+    margin-left: -250px;
+    text-decoration: none;
+    color: white;
+}
+
+.fa-twitter {
+    float: left;
+    margin-top: 240px;
+    margin-left: -200px;
+    text-decoration: none;
+    color: white;
+}
+
+.fa-youtube{
+    float: left;
+    margin-top: 240px;
+    margin-left: -150px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.story h5{
+    float: right;
+    font-size: 25px;
+    margin-top: 80px;
+    padding: 0%;
+    
+}
+
+.story p{
+    float: right;
+    font-size: 15px;
+    margin-left: 395px;
+    margin-right: 255px;
+    padding: 0%;
+}
+
+.story a{
+    color: #FFD369;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 2px solid #FFD369;
+}
+
+.intro-me{
+    margin-top: 500px;
+    background-color: #171717;
+    padding-top: 10px;
+    text-align: center;
+    height: 400px;
+}
+
+
+.adventure{
+    margin-top: 500px;
+    background-color: #171717;
+    padding-top: 10px;
+    text-align: center;
+    height: 600px;
+    color: lightgrey;
+}
+
+.adventure h1{
+    font-size: 55px;
+    color: lightgray;
+}
+
+.teamwindow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*.forecast {
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.forecast>h1, .day-forecast{
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.day-forecast {
+    background: right/contain content-box border-box no-repeat
+        url('/media/examples/rain.svg') white;
+}
+
+.day-forecast > h2,
+.day-forecast > p {
+    margin: .2rem;
+    font-size: 1rem;
+}*/
+
+
+

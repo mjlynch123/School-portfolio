@@ -1,0 +1,59 @@
+.nav{
+    font-size: 18px;
+    width: 400px;
+    text-align: center;
+    border: 1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 700px;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+
+.nav ul{
+    word-spacing: 10px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.nav li{
+    list-style: none;
+    display: inline;
+}
+
+.nav a:hover{
+    color: grey;
+}
+
+.nav a.current{
+    color: #FFD369;
+    font-size: 25px;
+}
+
+
+.Contact{
+    position: relative;
+    height: auto;
+    width: auto;
+}
+
+#name{
+    width: 95%;
+    margin: 15px;
+}
+
+#mail{
+    width: 95%;
+    margin: 15px;
+}
+
+#phone{
+    width: 95%;
+    margin: 15px;
+}

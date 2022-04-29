@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>    
+        <meta charset="utf8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>Maritn Lynch Portfolio Website</title>
+        <link rel="stylesheet" href="contact.css">
+        <link rel="icon" href="favicon-32x32.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <div class="nav">
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a class="current" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="Contact">
+                <h1>Contact</h1>
+                <p>If you have any questions about any projects or you would like to reach out for an idea, feel free to contact me.</p>
+                <p style="color: red;">***This currently does not work***</p>
+            </div>
+
+            <div class="form">
+                <form action="send_mail.php" method="get" enctype="multipart/form-data", name="EmailForm">
+                    <label for="name"> Full Name:<span style="color: red;">*</span></label><br>
+                    <input type="text" id="name" name="name">
+                    <label for="email"> Email: <span style="color: red;">*</span></label><br>
+                    <input type="email" id="mail" name="mail">
+                    <label for="Comments">Comments: <span style="color: red;">*</span></label><br>
+                    <textarea name="comments" id="comments" cols="88" rows="13"></textarea>
+                    <input type="submit" value="Submit">
+                    <input type="reset">
+                </form>
+            </div>
+        </div>
+
+
+
+        <script language=”JavaScript”>
+
+            var frmvalidator = new Validator('EmailForm'); 
+            frmvalidator.addValidation('name' , 'req','Please provide your name'); 
+            frmvalidator.addValidation('email','req','Please provide your email');
+            frmvalidator.addValidation('email','email', 'Please enter a valid email address');
+            </script>
+    </body>
+</html> 
+    
